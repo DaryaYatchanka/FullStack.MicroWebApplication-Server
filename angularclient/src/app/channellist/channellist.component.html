@@ -3,6 +3,7 @@
   <li *ngFor="let channel of channels"
   [class.selected]="channel === selectedChannel"
       (click)="onChannelSelect(channel)"><span class="badge">{{channel.name}}</span>
+
   </li>
 </ul>
 <hr />
